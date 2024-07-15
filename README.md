@@ -15,25 +15,27 @@
         DB_PASSWORD=xxx
   	
         APP_URL=http://<your-local-host>/api
-
+  	
+4.	Instalar dependencias
+   
+	`composer install`
+ 
 5. Ejecutar optimize
   
     `php artisan optimize`
    
-8.	Instalar dependencias
-   
-	`composer install`
-9. Ejecutar migraciones
+
+6. Ejecutar migraciones
 
 	`php artisan migrate`
 
 	`php artisan migrate --path=database\migrations\tweets`
-10. Ejecutar seeders
+7. Ejecutar seeders
    
 	`php artisan db:seed` 
-11. Obtener token de acceso
+8. Obtener token de acceso
     
 	`php artisan generate:token`
-12. Ejecutar tests
+9. Ejecutar tests
     
 	`php artisan test`
