@@ -2,7 +2,7 @@
 
 1. `git clone https://github.com/adrianfervenzarodriguez/fk-twt-api.git`
 2. `cd fk-twt-api`
-3.	Configurar variables fichero **.env**
+3.	Copiar fichero .env.example en nuevo fichero .env y configurar variables **.env**
    
         DB_HOST=127.0.0.1
   	
