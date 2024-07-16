@@ -57,9 +57,9 @@ class TweetFactory extends Factory
         return [
             'user' => fake()->userName(),
             'content' => fake()->realText(140),
-            'hashtags' => $this->generateHashtags(random_int(1, 2)),
+            'hashtags' => $this->generateHashtags(random_int(1, 3)),
             'likes_count' => fake()->numberBetween(0, 100),
-            'published_at' => fake()->dateTimeBetween('-1 years'),
+            'published_at' => fake()->dateTimeBetween('-3 months'),
         ];
     }
 }
